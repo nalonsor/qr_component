@@ -4,20 +4,20 @@ function App() {
   return (
     <>
 
-      <div className="wrapQr">
+      <main className="wrapQr">
         <img src={qr} alt="Codigo qr" />
         <div>
-          <p>
+          <h1>
             Improve your front-end skills by building projects
-          </p>
+          </h1>
 
-          <p>
+          <h2>
             Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-          </p>
+          </h2>
     
           
         </div>
-      </div>
+      </main>
 
       <div className="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
